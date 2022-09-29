@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/path/to/file.css">
+  <style>
+    div {
+      margin: 20px;
+      padding: 10px;
+    }
+
+    p {
+      color: chartreuse;
+    }
+
+    input {
+      border-color: crimson;
+    }
+  </style>
+</head>
+
+<body style="font-size: 18px; background-color: blueviolet;">
+  <a href="index1.html">Стиль с помощью файла style.css</a> <a href="index2.html">Стиль в HTML коде</a> <a
+    href="index3.html">Стиль из Bootstrap</a>
+  <form class="barber_form" method="POST" name="zayavka" action="/zayavka.php">
+    <p class="caption">Записаться онлайн</p>
+
+    <div class="infofield">Тип стрижки:</div>
+    <select name="service_type">
+      <option>Стрижка</option>
+      <option>Стрижка бороды</option>
+      <option selected="selected">Стрижка + Борода</option>
+    </select>
+
+    <div class="infofield">Уровень специалиста:</div>
+    <label><input type="radio" name="master" value="1" />Стажер</label>
+    <label><input type="radio" name="master" value="2" checked="checked" />Барбер</label>
+    <label><input type="radio" name="master" value="3" />VIP Барбер</label>
+
+    <div class="infofield">Дополнительные услуги:</div>
+    <label><input type="checkbox" name="massage" /> Массаж головы</label>
+    <label><input type="checkbox" name="razor" /> Опасная бритва</label>
+
+    <div class="infofield">Дата и время записи:</div>
+    <input type="datetime-local" name="date_time" />
+
+    <fieldset>
+      <legend>Контактная информация</legend>
+      <div class="infofield">Ваше имя:</div>
+      <input type="text" name="name" placeholder="введите ваше имя" />
+
+      <div class="infofield">Ваш телефон:</div>
+      <input type="tel" name="phone" placeholder="например, +7 800 123-45-67" />
+    </fieldset>
+
+    <input type="submit" name="zayavka_submit" value="Записаться" />
+  </form>
+</body>
+
+</html>
