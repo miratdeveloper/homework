@@ -1,0 +1,79 @@
+.title1 {
+    left: 20px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: sticky;
+    top:0px;
+}
+.big_blok {
+    width:100%;
+    height: 440px;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    position: relative;
+}
+.blok1_1 {
+    width:200px;
+    height: 140px;
+    background-color: #fe573e;
+    position: absolute;
+    right: 0px;
+    margin: 5px;
+    top:0px;
+}
+.blok1_2 {
+    width:200px;
+    height: 140px;
+    background-color: #fe573e;
+    position: absolute;
+    right: 210px;
+    margin: 5px;
+    top:0px;
+}
+.blok1_3 {
+    width:200px;
+    height: 140px;
+    background-color: #fe573e;
+    position: absolute;
+    right: 0px;
+    top: 145px;
+    margin: 5px;
+}
+.blok1_4 {
+    width:200px;
+    height: 140px;
+    background-color: #fe573e;
+    position: absolute;
+    right: 210px;
+    top: 145px;
+    margin: 5px;
+}
+.blok1_5 {
+    width:200px;
+    height: 140px;
+    background-color: #5989e9;
+    position: absolute;
+    right: 0px;
+    top: 290px;
+    margin: 5px;
+}
+.blok1_6 {
+    width:200px;
+    height: 140px;
+    background-color: #fe573e;
+    position: absolute;
+    right: 210px;
+    top: 290px;
+    margin: 5px;
+}
+.blok_bottom {
+    width:200px;
+    height: 140px;
+    background-color: #5989e9;
+    position: fixed;
+    right: 5px;
+    bottom: 13px;
+    margin: 5px;
+}
